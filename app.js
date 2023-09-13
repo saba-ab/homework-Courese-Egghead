@@ -187,11 +187,12 @@ function createFeatures() {
   const input = document.createElement("input");
   input.style.width = "85%";
   input.style.padding = "15px";
-  input.style.fontSize = "22px";
+  input.style.fontSize = "20px";
   input.placeholder = "Your Email";
   const subButton = document.createElement("div");
   subButton.style.display = "flex";
   subButton.style.alignItems = "center";
+  subButton.style.justifyContent = "center";
   subButton.style.padding = "15px";
   subButton.style.textAlign = "center";
   subButton.style.backgroundColor = "#23A6F0";
