@@ -191,6 +191,7 @@ function createFeatures() {
   input.placeholder = "Your Email";
   const subButton = document.createElement("div");
   subButton.style.display = "flex";
+  subButton.style.cursor = "pointer";
   subButton.style.alignItems = "center";
   subButton.style.justifyContent = "center";
   subButton.style.padding = "15px";
